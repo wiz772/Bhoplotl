@@ -145,7 +145,7 @@ jobs:
           cp macos/icon.icns Bhoplotl.app/Contents/Resources/icon.icns
 
       - name: Import signing certificate
-        if: ${{ secrets.APPLE_SIGNING_CERT != '' }}
+        if: secrets.APPLE_SIGNING_CERT != ''
         env:
           CSC_LINK: ${{ secrets.APPLE_SIGNING_CERT }}
           CSC_KEY_PASSWORD: ${{ secrets.APPLE_SIGNING_CERT_PASSWORD }}
@@ -159,13 +159,13 @@ jobs:
           rm certificate.p12
 
       - name: Sign the app
-        if: ${{ secrets.APPLE_SIGNING_CERT != '' }}
+        if: secrets.APPLE_SIGNING_CERT != ''
         run: |
           codesign --force --options runtime --sign "Developer ID Application" Bhoplotl.app/Contents/MacOS/Bhoplotl
           codesign --force --options runtime --sign "Developer ID Application" Bhoplotl.app
 
       - name: Notarize the app
-        if: ${{ secrets.APPLE_API_KEY != '' }}
+        if: secrets.APPLE_API_KEY != ''
         env:
           API_KEY: ${{ secrets.APPLE_API_KEY }}
           APPLE_API_KEY_ID: ${{ secrets.APPLE_API_KEY_ID }}
