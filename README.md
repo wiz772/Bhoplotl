@@ -1,25 +1,23 @@
-# Equilotl
+# Bhoplotl
 
-The Equicord Installer allows you to install [Equicord, the cutest Discord Desktop client mod](https://github.com/Equicord/Equicord)
-
-![image](https://i.imgur.com/oHN41ss.png)
+The Bhopcord Installer allows you to install [Bhopcord, a Discord Desktop client mod](https://github.com/wiz772/Bhopcord)
 
 ## Usage
 
 Windows
 
-- [GUI](https://github.com/Equicord/Equilotl/releases/latest/download/Equilotl.exe)
-- [CLI](https://github.com/Equicord/Equilotl/releases/latest/download/EquilotlCli.exe)
+- [GUI](https://github.com/wiz772/Bhoplotl/releases/latest/download/Bhoplotl.exe)
+- [CLI](https://github.com/wiz772/Bhoplotl/releases/latest/download/BhoplotlCli.exe)
 
 MacOS
 
-- [X64 GUI](https://github.com/Equicord/Equilotl/releases/latest/download/Equilotl-darwin-x64.zip)
-- [ARM64 GUI](https://github.com/Equicord/Equilotl/releases/latest/download/Equilotl-darwin-arm64.zip)
+- [X64 GUI](https://github.com/wiz772/Bhoplotl/releases/latest/download/Bhoplotl-darwin-x64.zip)
+- [ARM64 GUI](https://github.com/wiz772/Bhoplotl/releases/latest/download/Bhoplotl-darwin-arm64.zip)
 
 Linux
 
-- [GUI](https://github.com/Equicord/Equilotl/releases/latest/download/Equilotl-x11)
-- [CLI](https://github.com/Equicord/Equilotl/releases/latest/download/EquilotlCli-Linux)
+- [GUI](https://github.com/wiz772/Bhoplotl/releases/latest/download/Bhoplotl-x11)
+- [CLI](https://github.com/wiz772/Bhoplotl/releases/latest/download/BhoplotlCli-Linux)
 
 ## Building from source
 
@@ -82,4 +80,4 @@ go build --tags cli
 ```
 
 You might want to pass some flags to this command to get a better build.
-See [the GitHub workflow](https://github.com/Equicord/Equilotl/blob/main/.github/workflows/release.yml) for what flags I pass or if you want more precise instructions
+See [the GitHub workflow](https://github.com/wiz772/Bhoplotl/blob/main/.github/workflows/release.yml) for what flags I pass or if you want more precise instructions
