@@ -1,6 +1,6 @@
-# Bhoplotl
+# [<img src="./winres/icon.png" width="40" align="left" alt="Bhoplotl">](https://github.com/wiz772/Bhoplotl) Bhoplotl
 
-The Bhopcord Installer allows you to install [Bhopcord, a Discord Desktop client mod](https://github.com/wiz772/Bhopcord)
+The Bhopcord Installer allows you to install [Bhopcord](https://github.com/wiz772/Bhopcord), a Discord Desktop client mod fork.
 
 ## Usage
 
